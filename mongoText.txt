@@ -1,0 +1,27 @@
+# messagemodel
+{
+    "_id": "66349085f2c0a2c0342e2426",
+    "user": "663275b1afe77afeabe1f576",
+    "userName": "maxi",
+    "text": "Hey how are you !",
+    "data": "2024-05-03T07:21:41.880Z",
+    "__v": 0
+}
+
+# userDetails
+{
+    "_id": "663236a0f3b73fc6c098b499",
+    "userName": "prudhvi",
+    "email": "prudhvi@gmail.com",
+    "password": "$2b$10$tHevbfQWWcgutNJyaR5qKuPFQY8HLwRhwGsBGQS1ZVUFOHa4hK3se",
+    "__v": 0
+}
+
+http://localhost:5000/register
+http://localhost:5000/login
+http://localhost:5000/myprofile
+http://localhost:5000/allprofiles
+http://localhost:5000/addmessage
+http://localhost:5000/allmessages
+http://localhost:5000/allmessages/edit/:id
+http://localhost:5000/allmessages/delete/:id
